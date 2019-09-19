@@ -1,64 +1,7 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="6ae66391-5430-4753-8660-f31c258f3966" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/config-overrides.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/public/css/reset.css" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/api/ajax.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/api/index.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/assets/images/logo.jpg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/components/header/header.jsx" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/components/header/header.less" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/components/link-button/index.jsx" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/components/link-button/index.less" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/components/nav-left/nav-left.jsx" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/components/nav-left/nav-left.less" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/config/menuConfig.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/pages/admin/admin.jsx" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/pages/category/add-form.jsx" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/pages/category/category.jsx" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/pages/category/update-form.jsx" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/pages/charts/bar.jsx" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/pages/charts/line.jsx" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/pages/charts/pie.jsx" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/pages/home/home.jsx" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/pages/login/images/bg.jpg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/pages/login/login.jsx" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/pages/login/login.less" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/pages/product/add-update.jsx" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/pages/product/detail.jsx" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/pages/product/home.jsx" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/pages/product/pictures-wall.jsx" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/pages/product/product.jsx" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/pages/product/product.less" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/pages/product/rich-text-editor.jsx" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/pages/products/add-update.jsx" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/pages/products/detail.jsx" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/pages/products/home.jsx" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/pages/products/pictures-wall.jsx" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/pages/products/product.jsx" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/pages/products/product.less" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/pages/products/rich-text-editor.jsx" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/pages/role/add-form.jsx" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/pages/role/auth-form.jsx" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/pages/role/role.jsx" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/pages/user/user.jsx" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/utils/constants.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/utils/dateUtils.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/utils/memoryUtils.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/utils/storageUtils.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/package-lock.json" beforeDir="false" afterPath="$PROJECT_DIR$/package-lock.json" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/package.json" beforeDir="false" afterPath="$PROJECT_DIR$/package.json" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/public/favicon.ico" beforeDir="false" afterPath="$PROJECT_DIR$/public/favicon.ico" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/public/index.html" beforeDir="false" afterPath="$PROJECT_DIR$/public/index.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/App.css" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/App.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/App.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/App.test.js" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/index.css" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/index.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/index.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/logo.svg" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/serviceWorker.js" beforeDir="false" />
-    </list>
+    <list default="true" id="6ae66391-5430-4753-8660-f31c258f3966" name="Default Changelist" comment="" />
     <ignored path="$PROJECT_DIR$/.tmp/" />
     <ignored path="$PROJECT_DIR$/temp/" />
     <ignored path="$PROJECT_DIR$/tmp/" />
@@ -73,7 +16,7 @@
       <file pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/src/api/index.js">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="545">
+            <state relative-caret-position="1512">
               <caret line="54" column="60" selection-start-line="54" selection-start-column="43" selection-end-line="54" selection-end-column="60" />
               <folding>
                 <element signature="e#0#25#0" expanded="true" />
@@ -86,13 +29,10 @@
       <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/src/pages/role/auth-form.jsx">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="252">
-              <caret line="21" column="22" lean-forward="true" selection-start-line="21" selection-start-column="22" selection-end-line="21" selection-end-column="22" />
+            <state relative-caret-position="392">
+              <caret line="21" column="22" selection-start-line="21" selection-start-column="22" selection-end-line="21" selection-end-column="22" />
               <folding>
                 <element signature="e#0#42#0" expanded="true" />
-                <element signature="e#622#864#0" />
-                <element signature="e#1178#1370#0" />
-                <element signature="e#1537#1631#0" />
               </folding>
             </state>
           </provider>
@@ -197,6 +137,7 @@
       <foldersAlwaysOnTop value="true" />
     </navigator>
     <panes>
+      <pane id="Scope" />
       <pane id="ProjectPane">
         <subPane>
           <expand>
@@ -245,13 +186,13 @@
           <select />
         </subPane>
       </pane>
-      <pane id="Scope" />
     </panes>
   </component>
   <component name="PropertiesComponent">
     <property name="ASKED_SHARE_PROJECT_CONFIGURATION_FILES" value="true" />
+    <property name="SHARE_PROJECT_CONFIGURATION_FILES" value="true" />
     <property name="WebServerToolWindowFactoryState" value="false" />
-    <property name="last_opened_file_path" value="$PROJECT_DIR$/src/pages/role" />
+    <property name="last_opened_file_path" value="$PROJECT_DIR$/../面试" />
     <property name="node.js.detected.package.eslint" value="true" />
     <property name="node.js.detected.package.standard" value="true" />
     <property name="node.js.path.for.package.eslint" value="project" />
@@ -314,11 +255,12 @@
       <workItem from="1568605092286" duration="1713000" />
       <workItem from="1568618697714" duration="9869000" />
       <workItem from="1568698195980" duration="10571000" />
+      <workItem from="1568775534513" duration="609000" />
     </task>
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="99669000" />
+    <option name="totallyTimeSpent" value="100278000" />
   </component>
   <component name="ToolWindowManager">
     <frame x="-7" y="-7" width="1550" height="838" extended-state="6" />
@@ -741,19 +683,6 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/pages/role/auth-form.jsx">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="252">
-          <caret line="21" column="22" lean-forward="true" selection-start-line="21" selection-start-column="22" selection-end-line="21" selection-end-column="22" />
-          <folding>
-            <element signature="e#0#42#0" expanded="true" />
-            <element signature="e#622#864#0" />
-            <element signature="e#1178#1370#0" />
-            <element signature="e#1537#1631#0" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/src/pages/role/role.jsx">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="275">
@@ -774,11 +703,21 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/src/api/index.js">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="545">
+        <state relative-caret-position="1512">
           <caret line="54" column="60" selection-start-line="54" selection-start-column="43" selection-end-line="54" selection-end-column="60" />
           <folding>
             <element signature="e#0#25#0" expanded="true" />
             <element signature="e#2453#3088#0" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/pages/role/auth-form.jsx">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="392">
+          <caret line="21" column="22" selection-start-line="21" selection-start-column="22" selection-end-line="21" selection-end-column="22" />
+          <folding>
+            <element signature="e#0#42#0" expanded="true" />
           </folding>
         </state>
       </provider>
