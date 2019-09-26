@@ -1,5 +1,6 @@
 import React, {Component} from 'react'
 import {Redirect, Route, Switch} from 'react-router-dom'
+import {connect} from 'react-redux'
 import { Layout } from 'antd';
 import memoryUtils from '../../utils/memoryUtils'
 
@@ -15,14 +16,14 @@ import Bar from '../charts/bar'
 import Line from '../charts/line'
 import Pie from '../charts/pie'
 
-export default class admin extends Component{
+class Admin extends Component{
 
     state = {
         collapsed: false,
     };
 
     render() {
-        const user = memoryUtils.user
+        const user = this.props.user
         // 如果内存没有存储user ==> 当前没有登陆
         if(!user || !user._id) {
             // 自动跳转到登陆(在render()中)
@@ -58,3 +59,8 @@ export default class admin extends Component{
         )
     }
 }
+
+export default connect(
+    state => ({user: state.user}),
+    {}
+)(Admin)

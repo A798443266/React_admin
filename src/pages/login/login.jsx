@@ -3,6 +3,8 @@ import {Redirect} from 'react-router-dom'
 import './login.less'
 import logo from '../../assets/images/logo.jpg'
 import {Form, Icon, Input, Button, message} from 'antd';
+import {connect} from 'react-redux'
+import {login} from '../../redux/actions'
 
 import {reqLogin} from "../../api";
 import memoryUtils from '../../utils/memoryUtils'
@@ -18,11 +20,8 @@ class Login extends Component {
         this.props.form.validateFields(async (err, values) => {
             // 检验成功
             if (!err) {
-                console.log('提交登录的ajax请求', values);
-                // 请求登陆
                 const {username, password} = values
-                const result = await reqLogin(username, password) // {status: 0, data: user}  {status: 1, msg: 'xxx'}
-                // console.log('请求成功', result)
+                /*const result = await reqLogin(username, password) // {status: 0, data: user}  {status: 1, msg: 'xxx'}
                 if (result.status === 0) { // 登陆成功
                     // 提示登陆成功
                     message.success('登陆成功')
@@ -31,10 +30,14 @@ class Login extends Component {
                     memoryUtils.user = user // 保存在内存中
                     storageUtils.saveUser(user) // 保存到localstorage中
                     // 跳转到管理界面 (不需要再回退回到登陆)
-                    this.props.history.replace('/')
+                    this.props.history.replace('/home')
+
                 } else {
                     message.error(result.msg)
-                }
+                }*/
+
+                //redux版本  调用分发异步action的函数 => 发登陆的异步请求, 有了结果后更新状态
+                this.props.login(username, password)
             }
         });
 
@@ -65,10 +68,10 @@ class Login extends Component {
     }
 
     render() {
-        // 如果用户已经登陆, 自动跳转到管理界面
-        const user = memoryUtils.user
+        // 如果用户已经登陆, 自动跳转到管理界面 user是redux管理的
+        const user = this.props.user
         if(user && user._id) {
-            return <Redirect to='/'/>
+            return <Redirect to='/home'/>
         }
 
         const {getFieldDecorator} = this.props.form;
@@ -129,5 +132,8 @@ class Login extends Component {
 包装Form组件生成一个新的组件: Form(Login)
 新组件会向Form组件传递一个强大的对象属性: form
  */
-const WrapLogin = Form.create()(Login);
-export default WrapLogin
+const WrapLogin = Form.create()(Login)
+export default connect(
+    state => ({user: state.user}),
+    {login}
+)(WrapLogin)
